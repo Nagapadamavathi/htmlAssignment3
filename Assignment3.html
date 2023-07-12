@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Beauty of Nature</h1>
+     <style>
+        h1{
+            text-align : center;
+            color :white;
+            font-size: 40px;
+        }
+        body {
+            background-image: url(Images/image3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .container{
+          background: url("Images/screen1.jpg") no-repeat;
+          background-size: cover;
+          width:750px;
+          height:500px;
+          position: relative;
+          margin:auto;
+          display: flex;
+          flex-direction: column;
+        }
+        .image-container{
+          width:680px;
+          height:400px;
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          top:10px;
+          left:40px;
+        }
+        .image-2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap:wrap;
+          gap:10px;
+        }
+        img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+/* Clear floats after image containers */
+.row::after {
+  position: absolute;
+  content: "";
+  clear: both;
+  display: table;
+}
+     </style>
+    </head>
+    <body>
+    <div class="container">
+      <div class="image-container">
+        <h1 class="">Real images and Drawing images</h1>
+        <div class="image-2">
+          <img src="Images/n1.jpg" alt="Snow" width="100px" height="100px">
+          <img src="Images/n2.jpg" alt="Snow" width="100px" height="100px">
+          <img src="Images/n3.jpg" alt="Snow" width="100px" height="100px">
+          <img src="Images/d1.jpg" alt="Snow" width="100px" height="100px">
+          <img src="Images/d2.jpg" alt="Snow" width="100px" height="100px">
+          <img src="Images/d3.jpg" alt="Snow" width="100px" height="100px">
+          <img src="Images/n4.jpg" alt="Snow" width="100px" height="100px">
+          <img src="Images/n5.jpg" alt="Snow" width="100px" height="100px">
+          <img src="Images/n6.jpg" alt="Snow" width="100px" height="100px">
+          <img src="Images/d4.jpg" alt="Snow" width="100px" height="100px">
+          <img src="Images/d5.jpg" alt="Snow" width="100px" height="100px">
+          <img src="Images/d6.jpg" alt="Snow" width="100px" height="100px">
+          <img src="Images/n7.jpg" alt="Snow" width="100px" height="100px">
+          <img src="Images/n8.jpg" alt="Snow" width="100px" height="100px">
+          <img src="Images/n9.jpg" alt="Snow" width="100px" height="100px">
+          <img src="Images/d7.jpg" alt="Snow" width="100px" height="100px">
+          <img src="Images/d8.jpg" alt="Snow" width="100px" height="100px">
+          <img src="Images/d9.jpg" alt="Snow" width="100px" height="100px">
+        </div>
+      </div>
+    </div>
+    </body>
+</html>
